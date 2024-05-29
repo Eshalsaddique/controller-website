@@ -290,7 +290,8 @@ font-family: "Indie Flower", cursive;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  h1{font-family: "Jaro", sans-serif;
+  h1{
+    font-family: "Jaro", sans-serif;
 font-size: 40px;
   font-weight: bold;
 }}
@@ -305,6 +306,65 @@ font-size: 40px;
 .services img{
   max-width: 90%;
 }
+
+
+
+/* carosel ................................*/
+.carosel{
+  h1{
+    font-family: "Jaro", sans-serif;
+    font-size: 40px;
+      font-weight: bold;
+      padding-top: 2%;
+  }
+}
+/* banner..................................... */
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(#442152e0,#a686abe0) ;
+ margin: 2% 10%;
+ border-radius: 35px;
+ 
+}
+.banner-outline{
+background: transparent;
+padding: 5%;
+border: 2px solid #ca77f1e0;
+width: 80%;
+margin: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+font-family: "Indie Flower", cursive;
+h5{
+  background: transparent;
+  color: #808080;
+  font-size: 12px;
+}
+h1{
+  font-size: 40px;
+  color: rgb(193, 193, 193);
+  background: transparent;
+  font-family: "Jaro", sans-serif;
+}
+h3{
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+button{
+  background: #bbbbbb;
+  padding: 2px 10px;
+  border: none;
+  border-radius: 25px;
+}
+}
+
+
 /* footer....................................... */
 .container{
   max-width: 1170px;

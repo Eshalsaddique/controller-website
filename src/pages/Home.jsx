@@ -4,6 +4,7 @@ import {FaPlay} from 'react-icons/fa'
 import About from './About';
 import Footer from '../Components/Footer';
 import Services from './Services';
+import Carosel from './Carosel';
 const Home = () => {
   return (
     <>
@@ -49,6 +50,7 @@ const Home = () => {
 
 
 <Services/>
+<Carosel/>
 <Footer/>
     </>
   )
